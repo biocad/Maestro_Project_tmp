@@ -1,0 +1,28 @@
+#include "/data/user/shehovtsov/OPLS3.ff/forcefield.itp"
+#include "/data/user/shehovtsov/OPLS3.ff/ions.itp"
+#include "/data/user/shehovtsov/OPLS3.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+#include "T99A.itp"
+
+#ifdef POSRES
+#include "posre_T99A.itp"
+#endif
+
+#include "benzene.itp"
+
+#ifdef POSRES_LIG
+#include "posre_benzene.itp"
+#endif
+
+[system]
+T99A + benzene in water
+
+[ molecules ]
+T99A         1
+benzene      1

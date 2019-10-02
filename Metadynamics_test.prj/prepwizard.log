@@ -1,0 +1,382 @@
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Found 4 het groups
+  HET 1 atoms: [1284]
+  HET 2 atoms: [1285]
+  HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+
+The following terminal residues have been capped: A:162, A:1
+
+Found 4 het groups
+  HET 1 atoms: [2603]
+  HET 2 atoms: [2604]
+  HET 3 atoms: [2605, 2606, 2607, 2608, 2609, 2610]
+  HET 4 atoms: [2617, 2618, 2619, 2620, 2626, 2627, 2628, 2629]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Selected state 1 of het 1
+
+Deleted het groups: [1, 2]
+
+Selected state 1 of het 4
+
+Deleted het groups: [4]
+
+Selected state 1 of het 3
+
+Launched Optimize H-bonds (ProtAssign) job
+    Water sampling: on
+    Minimize hydrogens of altered species: off
+    Use crystal symmetry: off
+    Using PROPKA with pH: 7.0
+Optimize H-bonds job has completed
+
+Launched restrained minimization job
+    All atoms
+    RMSD: 0.3
+Restrained minimization job has completed
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Found 4 het groups
+  HET 1 atoms: [1284]
+  HET 2 atoms: [1285]
+  HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+
+The following terminal residues have been capped: A:162, A:1
+
+Found 4 het groups
+  HET 1 atoms: [2603]
+  HET 2 atoms: [2604]
+  HET 3 atoms: [2605, 2606, 2607, 2608, 2609, 2610]
+  HET 4 atoms: [2617, 2618, 2619, 2620, 2626, 2627, 2628, 2629]
+
+Found 11 waters
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Selected het 1
+
+Deleted het groups: [1, 2]
+
+Selected het 4
+
+Deleted het groups: [4]
+
+Launched Optimize H-bonds (ProtAssign) job
+    Water sampling: on
+    Minimize hydrogens of altered species: off
+    Use crystal symmetry: off
+    Using PROPKA with pH: 7.0
+Optimize H-bonds job has completed
+Deleted waters that make less than 3 H-bond to non-waters
+
+Launched restrained minimization job
+    All atoms
+    RMSD: 0.3
+Restrained minimization job has completed
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+  NEW HET 1 atoms: [1284]
+  NEW HET 2 atoms: [1285]
+  NEW HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  NEW HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+  LOADED HET 1 atoms: 1 (1 existing states)
+  LOADED HET 2 atoms: 1 (1 existing states)
+  LOADED HET 3 atoms: 8 (1 existing states)
+  LOADED HET 4 atoms: 6 (1 existing states)
+
+Found 11 waters
+
+Selected state 1 of het 3
+
+Deleted het groups: [3]
+
+Selected state 1 of het 2
+
+Deleted het groups: [2]
+
+Selected state 1 of het 1
+
+Deleted het groups: [1]
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Selected state 1 of het 4
+Optimize H-bonds job has completed
+Restrained minimization job has completed
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+  NEW HET 1 atoms: [1284]
+  NEW HET 2 atoms: [1285]
+  NEW HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  NEW HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+  NEW HET 1 atoms: [1284]
+  NEW HET 2 atoms: [1285]
+  NEW HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  NEW HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1296, 1297, 2), (1298, 1299, 2), (1294, 1295, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+  NEW HET 1 atoms: [1284]
+  NEW HET 2 atoms: [1285]
+  NEW HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  NEW HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1297, 1298, 2), (1294, 1299, 2), (1295, 1296, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+The following terminal residues have been capped: A:162, A:1
+  NEW HET 1 atoms: [2603]
+  NEW HET 2 atoms: [2604]
+  NEW HET 3 atoms: [2605, 2606, 2607, 2608, 2609, 2610]
+  NEW HET 4 atoms: [2617, 2618, 2619, 2620, 2626, 2627, 2628, 2629]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  No bond orders were changed
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+  NEW HET 1 atoms: [1285]
+  NEW HET 2 atoms: [1286]
+  NEW HET 3 atoms: [1287, 1288, 1289, 1290, 1291, 1292]
+  NEW HET 4 atoms: [1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+The following atoms (1) had bad atom types: [(1, 4, 5)].
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1297, 1298, 2), (1294, 1299, 2), (1295, 1296, 2)}
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+  NEW HET 1 atoms: [1284]
+  NEW HET 2 atoms: [1285]
+  NEW HET 3 atoms: [1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293]
+  NEW HET 4 atoms: [1294, 1295, 1296, 1297, 1298, 1299]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+  LOADED HET 1 atoms: 1 (1 existing states)
+  LOADED HET 2 atoms: 1 (1 existing states)
+  LOADED HET 3 atoms: 8 (1 existing states)
+  LOADED HET 4 atoms: 6 (1 existing states)
+
+Found 11 waters
+
+Selected state 1 of het 1
+
+Deleted het groups: [1, 2, 3]
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Optimize H-bonds job has completed
+Restrained minimization job has completed
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1297, 1298, 2), (1294, 1299, 2), (1295, 1296, 2)}
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+
+The following terminal residues have been capped: A:162, A:1
+  NEW HET 1 atoms: [2603]
+  NEW HET 2 atoms: [2604]
+  NEW HET 3 atoms: [2605, 2606, 2607, 2608, 2609, 2610]
+  NEW HET 4 atoms: [2617, 2618, 2619, 2620, 2626, 2627, 2628, 2629]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+  LOADED HET 1 atoms: 1 (1 existing states)
+  LOADED HET 2 atoms: 1 (1 existing states)
+  LOADED HET 3 atoms: 6 (1 existing states)
+  LOADED HET 4 atoms: 8 (1 existing states)
+
+Found 11 waters
+
+Selected state 1 of het 1
+
+Deleted het groups: [1, 2, 3]
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Deleted the following waters: [11]
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(1297, 1298, 2), (1294, 1299, 2), (1295, 1296, 2)}
+
+Removed original hydrognens from the Workspace structure
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Filled missing loops with Prime
+
+The following terminal residues have been capped: A:162, A:1
+  NEW HET 1 atoms: [2603]
+  NEW HET 2 atoms: [2604]
+  NEW HET 3 atoms: [2605, 2606, 2607, 2608, 2609, 2610]
+  NEW HET 4 atoms: [2617, 2618, 2619, 2620, 2626, 2627, 2628, 2629]
+
+Found 11 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+  LOADED HET 1 atoms: 1 (1 existing states)
+  LOADED HET 2 atoms: 1 (1 existing states)
+  LOADED HET 3 atoms: 6 (1 existing states)
+  LOADED HET 4 atoms: 8 (1 existing states)
+
+Found 11 waters
+
+Deleted the following waters: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Selected state 1 of het 2
+
+Deleted het groups: [2, 1]
+
+Selected state 1 of het 4
+
+Deleted het groups: [4]
+Optimize H-bonds job has completed
+Restrained minimization job has completed

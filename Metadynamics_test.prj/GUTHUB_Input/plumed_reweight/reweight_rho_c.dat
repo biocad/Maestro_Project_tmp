@@ -1,0 +1,20 @@
+rho: READ FILE=../input/rtp_coord.dat VALUES=rho IGNORE_FORCES IGNORE_TIME
+c: READ FILE=../input/all_coordination_45.dat VALUES=c IGNORE_FORCES IGNORE_TIME
+metad: READ FILE=../input/metad_data.dat VALUES=metad.* IGNORE_FORCES IGNORE_TIME
+
+weights: REWEIGHT_METAD TEMP=300 ARG=metad.rbias
+
+HISTOGRAM ...
+  ARG=rho,c
+  GRID_MIN=0.,0.
+  GRID_MAX=3.0,160.
+  GRID_BIN=100,100
+  KERNEL=DISCRETE
+  LOGWEIGHTS=weights
+  LABEL=hD
+... HISTOGRAM
+
+ff: CONVERT_TO_FES GRID=hD TEMP=300.
+DUMPGRID GRID=ff FILE=rew_fes_rhoc.dat STRIDE=5000
+
+ENDPLUMED

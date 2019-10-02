@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+    Build Missing Protein Loops
+--------------------------------------------------------------------------------
+JobId          : sh-0-5d94a9f2
+Name           : 1l84-missing-loops
+Program        : Build Missing Protein Loops
+MMshareExec    : /home/shehovtsov/Programs/2019.3/mmshare-v4.7/bin/Linux-x86_64
+Host           : sh
+Dir            : /home/shehovtsov/Projects/Metadynamics.prj/prepwizard_workdir
+HostEntry      : localhost
+JobHost        : sh
+JobDir         : /tmp/shehovtsov/1l84-missing-loops
+JobMMshareExec : /home/shehovtsov/Programs/2019.3/mmshare-v4.7/bin/Linux-x86_64
+Commandline    : /home/shehovtsov/Programs/2019.3/run -FROM psp build_missing_loops.py 1l84-missing-loops-in.maegz -JOBNAME 1l84-missing-loops -fasta_file 1l84.fasta -DISP custom -HOST localhost -VIEWNAME ZPHU97G247KSF0NJWWAQ4AVO44TSGNWS -PROJ /home/shehovtsov/Projects/Metadynamics.prj
+StartTime      : 2019-10-02-16:45:22
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+All Entries Succesfully Processed
+Total Time Elapsed (hours:minutes:seconds)    0:00:00
+[running at reduced cpu priority]

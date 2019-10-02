@@ -1,0 +1,53 @@
+WHOLEMOLECULES ENTITY0=1-2593 ENTITY1=2594-2605
+FIT_TO_TEMPLATE REFERENCE=../input/heavy_atoms.pdb TYPE=OPTIMAL
+
+# Group definition
+prot_noh: GROUP NDX_FILE=../input/index.ndx NDX_GROUP=Protein-H
+sph: GROUP NDX_FILE=../input/index.ndx NDX_GROUP=sphere
+bnz: GROUP NDX_FILE=../input/index.ndx NDX_GROUP=BNZ_noH
+
+WRAPAROUND ATOMS=bnz AROUND=sph
+
+sph_center: COM ATOMS=sph
+bnz_center: COM ATOMS=bnz
+
+sph_coord: POSITION ATOM=sph_center NOPBC
+bnz_coord: POSITION ATOM=bnz_center NOPBC
+
+abs_x: MATHEVAL ARG=bnz_coord.x,sph_coord.x FUNC=x-y PERIODIC=NO
+abs_y: MATHEVAL ARG=bnz_coord.y,sph_coord.y FUNC=x-y PERIODIC=NO
+abs_z: MATHEVAL ARG=bnz_coord.z,sph_coord.z FUNC=x-y PERIODIC=NO
+
+rho: MATHEVAL ARG=abs_x,abs_y,abs_z FUNC=sqrt(x*x+y*y+z*z) PERIODIC=NO
+theta: MATHEVAL ARG=abs_z,rho FUNC=acos(x/y) PERIODIC=0.,pi
+phi: MATHEVAL ARG=abs_x,abs_y FUNC=atan2(y,x) PERIODIC=-pi,pi
+
+# Restraining potential of the sphere
+restr: UPPER_WALLS ARG=rho AT=2.2 KAPPA=10000
+
+# Coordination number
+c: COORDINATION GROUPA=bnz GROUPB=prot_noh R_0=0.45
+
+# Metadynamics
+METAD ...
+ARG=rho,theta,phi
+GRID_MIN=0,0.,-pi
+GRID_MAX=2.4,pi,pi
+SIGMA=0.1,pi/16.,pi/8.
+HEIGHT=1.2
+PACE=500
+BIASFACTOR=20
+TEMP=300.
+LABEL=metad
+CALC_RCT
+... METAD
+
+
+PRINT ARG=rho FILE=distance.dat STRIDE=500
+PRINT ARG=metad.* FILE=metad_data.dat STRIDE=500
+PRINT ARG=restr.* FILE=sphere_restraint.dat STRIDE=500
+PRINT ARG=abs_x,abs_y,abs_z FILE=xyz_coord.dat STRIDE=500
+PRINT ARG=rho,theta,phi FILE=rtp_coord.dat STRIDE=500
+PRINT ARG=c FILE=all_coordination_45.dat STRIDE=500
+
+FLUSH STRIDE=500
